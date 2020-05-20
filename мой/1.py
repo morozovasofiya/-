@@ -31,8 +31,8 @@ def GenerSecond(task): #генерируем значения переменны
     pos4 = task.rfind(']')
     srez1 = task[pos3 + 1:pos4]
     num3, num4 = srez1.split()
-    a = int(num3)
-    b = int(num4)
+    a = int(num 4)
+    b = int(num 3)
     return random.randint(a, b + 1)
 
 
